@@ -21,9 +21,10 @@ function update() {
     if (emailAddress.length < 1) {
         messages.push("Email is required");
     }
+    console.log(messages);
     //Loop through array
-    var errorList = messages[0] + '<br>';
-    for (var i = 1; i < messages.length; i++) {
+    var errorList = '';
+    for (var i = 0; i < messages.length; i++) {
         errorList += messages[i] + '<br>';
         document.getElementById('error-list').innerHTML = errorList;
     }
