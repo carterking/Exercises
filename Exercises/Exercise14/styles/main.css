@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:500px;
+    margin:20px auto;
+}
+
+.input-group {
+    padding: 20px;
+}
+
+div {
+    display: block;
+}
+
+.invalid {
+    border: 1px solid #ff0000;
+    background: #ff9191;
+}
+
+.error {
+    color: red;
+}
