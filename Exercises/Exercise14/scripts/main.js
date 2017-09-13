@@ -46,7 +46,7 @@ function submit() {
     } else {
         document.getElementById('message').innerHTML = '<strong>Way to go, you filled out a form!</strong>';
     }
-    
+
 
 
 
@@ -55,8 +55,8 @@ function submit() {
 
 
 function reset() {
-    console.log('reset'); 
+    console.log('reset');
 }
 
-var elm = document.getElementById(input-group);
+var elm = document.getElementById(input - group);
 elm.classList.add(invalid);
