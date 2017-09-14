@@ -41,7 +41,7 @@ var DateFormatter = {
   month: d.getMonth() + 1,
   year: d.getFullYear(),
   getShortTime: function() {
-    return this.hours + ":" + this.minutes;
+    return ((this.hours + 11) % 12 + 1) + ":" + this.minutes;
   },
   getLongTime: function() {
     return ((this.hours + 11) % 12 + 1) + ":" + this.minutes + ":" + this.seconds;
