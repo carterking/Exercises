@@ -1,7 +1,5 @@
 var d = new Date();
-var time = d.toLocaleString([], {
-    hour12: true
-});
+var time = d.toLocaleString([], { hour12: true });
 var period = time.slice(-2);
 
 var weekday = new Array(7);
@@ -28,35 +26,35 @@ monthName[10] = "November";
 monthName[11] = "December";
 
 function addZero(i) {
-    if (i < 10) {
-        i = "0" + i;
-    }
-    return i;
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
 }
 
 var DateFormatter = {
-    seconds: addZero(d.getSeconds()),
-    minutes: addZero(d.getMinutes()),
-    hours: d.getHours(),
-    day: d.getDay(),
-    date: d.getDate(),
-    month: d.getMonth() + 1,
-    year: d.getFullYear(),
-    getShortTime: function () {
-        return this.hours + ":" + this.minutes;
-    },
-    getLongTime: function () {
-        return this.hours + ":" + this.minutes + ":" + this.seconds;
-    },
-    getShortDate: function () {
-        return this.month + "/" + this.date + "/" + this.year;
-    },
-    getLongDate: function () {
-        return monthName[d.getMonth()] + " " + this.date + ", " + this.year;
-    },
-    getWeekDay: function () {
-        return weekday[d.getDay()];
-    }
+  seconds: addZero(d.getSeconds()),
+  minutes: addZero(d.getMinutes()),
+  hours: d.getHours(),
+  day: d.getDay(),
+  date: d.getDate(),
+  month: d.getMonth() + 1,
+  year: d.getFullYear(),
+  getShortTime: function() {
+    return this.hours + ":" + this.minutes;
+  },
+  getLongTime: function() {
+    return ((this.hours + 11) % 12 + 1) + ":" + this.minutes + ":" + this.seconds;
+  },
+  getShortDate: function() {
+    return this.month + "/" + this.date + "/" + this.year;
+  },
+  getLongDate: function() {
+    return monthName[d.getMonth()] + " " + this.date + ", " + this.year;
+  },
+  getWeekDay: function() {
+    return weekday[d.getDay()];
+  }
 };
 
 var getWeekDay = DateFormatter.getWeekDay(d);
