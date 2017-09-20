@@ -1,0 +1,93 @@
+.main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.travels-main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Helvetica, Arial;
+    background: #888;
+    padding: 135px 0;
+}
+
+.center-box {
+    border: 5px solid #000;
+    background: #fff;
+}
+
+nav {
+    margin-top: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    color: #000;
+}
+
+.bio {
+    float: left;
+    padding-left: 18px;
+    width: 54%;
+}
+
+.bio p {
+    color: #888;
+}
+
+.my-pic {
+    float: right;
+}
+
+.my-pic img {
+    width: 290px;
+    height: 200px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-image {
+    text-align: center;
+    width: 220px;
+    margin: 0 15px;
+}
+
+.gallery img {
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+.gallery li {
+    display: inline-block;
+    list-style: none;
+}
+
+.gallery h6 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+#readMore {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+#seeReason {
+    display: none;
+    font-size: 12px;
+}
+
+footer {
+    clear: both;
+}
