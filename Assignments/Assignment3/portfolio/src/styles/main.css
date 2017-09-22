@@ -78,14 +78,13 @@ a {
     margin-top: 5px;
     margin-bottom: 0;
 }
-#readMore {
-    font-size: 12px;
-    margin-top: 0;
+
+.destination-name {
+    cursor: pointer;
 }
 
-#seeReason {
-    display: none;
-    font-size: 12px;
+.arrow-side, .arrow-down {
+    display: inline-block;
 }
 
 footer {
