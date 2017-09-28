@@ -76,7 +76,6 @@ a {
 
 .gallery h6 {
     margin-top: 5px;
-    margin-bottom: 0;
 }
 
 .destination-name {
@@ -85,6 +84,10 @@ a {
 
 .arrow-side, .arrow-down {
     display: inline-block;
+}
+
+.option-content {
+    margin-bottom: 10px;
 }
 
 footer {
