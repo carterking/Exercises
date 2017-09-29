@@ -1,0 +1,152 @@
+
+body {
+    background:#888;
+    font-family: Helvetica, Arial;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 960px;
+    background:#fff;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+a {
+    color: #30396d;
+}
+
+nav {
+    float: right;
+    font-size: 12px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-image {
+    background-image: url("../sky.jpeg");
+    background-repeat: no-repeat;
+    height: 429px;
+}
+
+
+header {
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding: 90px 0 0 0;
+}
+
+section {
+    background: #fff;
+    margin: 0;
+    padding-left: 20px;;
+    float: left;
+    width: 70%;
+}
+
+section h3, a {
+    color: #30396D
+}
+
+.quote-box {
+    border: 1px solid #888;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+aside {
+    background-color: #fff;
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+.categories ul {
+    padding: 0 0 0 14px;
+}
+
+.tags {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+}
+
+.tags a {
+    border: 1px solid #888888;
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 3px 5px 0;
+}
+
+.featured-image {
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+    margin-right: 4px;
+}
+
+.featured-image img {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #000;
+}
+
+footer {
+    background: #30396D;
+    clear: both;
+    color: #fff;
+    height: 200px;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-footer {
+    float: left;
+    width: 33%;
+}
+
+.mid-footer {
+    float: left;
+    width: 33%;
+}
+
+.right-footer {
+    float: right;
+    width: 33%;
+}
+
+.right-footer li {
+    text-align: center;
+    border: 2px solid #fff;
+    margin: 5px 0 5px 0;
+    padding: 8px 0 8px 0;
+}

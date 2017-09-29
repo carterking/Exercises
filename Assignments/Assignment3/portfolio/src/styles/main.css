@@ -10,7 +10,7 @@
 
 body {
     font-family: Helvetica, Arial;
-    background: #888;
+    background: #B4B4B4;
     padding: 135px 0;
 }
 
@@ -67,6 +67,7 @@ a {
     margin: 0 auto;
     height: 200px;
     width: 200px;
+    border: 2px solid #B4B4B4;
 }
 
 .gallery li {
@@ -88,6 +89,11 @@ a {
 
 .option-content {
     margin-bottom: 10px;
+}
+
+header {
+    border-top: 2px solid #B4B4B4;
+    color: #000
 }
 
 footer {
