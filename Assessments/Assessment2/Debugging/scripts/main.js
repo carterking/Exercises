@@ -129,6 +129,7 @@ function addArray(myArray) {
     for (var i = 0; i < myArray.length; i++) {
         sum += myArray[i];
     }
+    return sum;
 }
 
 
@@ -145,7 +146,7 @@ function addArray(myArray) {
 
 */
 function decimalToPercent(decimal) {
-    return Math.round(decimal * 100);
+    return Math.round(decimal * 100) + '%';
 }
 
 /*
