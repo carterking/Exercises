@@ -1,0 +1,152 @@
+body,
+ul {
+    padding: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: #50575E;
+    text-decoration: none
+}
+
+header {
+    background: #fff
+}
+
+footer {
+    background: lightseagreen;
+}
+
+ul {
+    list-style: none
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding-right: 20px
+}
+
+footer,
+header nav,
+section,
+.carousel {
+    margin: 0 auto
+}
+
+header {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.carousel img {
+    height: 300px;
+}
+
+section img {
+    max-width: 353px;
+    max-height: 78px;
+    width: 100%;
+}
+
+
+/* Flexbox */
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 2;
+}
+
+.nav-links {
+    flex-grow: 1;
+}
+
+header nav ul,
+footer nav ul {
+    display: flex;
+}
+
+.language-literacy {
+    background-image: url("http://ozarkliteracy.org/wp-content/uploads/2014/03/OLC-Backgrounds_Language_MED.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.civic-literacy {
+    background-image: url("http://ozarkliteracy.org/wp-content/uploads/2014/03/OLC-Backgrounds_Civic_MED.jpg");
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.financial-literacy {
+    background-image: url("http://ozarkliteracy.org/wp-content/uploads/2013/09/OLC-Backgrounds_Finance_MED.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.health-literacy {
+    background-image: url("http://ozarkliteracy.org/wp-content/uploads/2014/03/OLC-Backgrounds_Health_MED.jpg");
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.workforce-literacy {
+    background-image: url("http://ozarkliteracy.org/wp-content/uploads/2013/09/OLC-Backgrounds_Workforce.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.lit-row {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.section-para {
+    color: #fff;
+    font-size: 18px;
+    font-family: "open-sans";
+    flex-basis: 50%;
+}
+
+
+@media screen and (max-width: 550px) {
+    header nav ul,
+    footer nav ul {
+        flex-direction: column;
+    }
+}
