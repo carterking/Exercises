@@ -3,8 +3,11 @@
 
 <head>
     <title>Ozark Literacy Council</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 </head>
 
 <body class="responsive">
@@ -28,7 +31,19 @@
             </ul>
         </nav>
     </header>
-    Carousel Goes Here
+
+    <div class="slick-carousel">
+        <div>
+            <img class="carousel-image" src="images/slider_1.jpg" alt="First slide">
+        </div>
+        <div>
+            <img class="carousel-image" src="images/slider_2.jpg" alt="Second slide">
+        </div>
+        <div>
+            <img class="carousel-image" src="images/slider_3.jpg" alt="Third slide">
+        </div>
+    </div>
+
     <!-- Bootstrap Carousel
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -58,54 +73,54 @@
     <section>
 
         <div class="language-literacy lit-row">
-            <div class="section-para">
+            <div class="section-para enter-left">
                 <p>Students increase their ability to communicate in English while learning U.S. systems, customs, and culture
                     and skills useful in life, academic, and workplace applications. Students come with a variety of skills
                     and we place them in 4 levels of tutoring and English classes (basic, beginning, intermediate, advanced).
                     This includes instruction in reading, writing, listening and speaking.</p>
             </div>
-            <div class="section-image">
-                <img src="http://ozarkliteracy.org/wp-content/uploads/2013/09/OLC-Logo_Language.png">
+            <div class="section-image enter-right">
+                <img src="images/lit.png">
             </div>
         </div>
         <div class="civic-literacy lit-row">
-            <div class="section-para">
+            <div class="section-para enter-right">
                 <p>Students learn about the rights and responsibilities of citizenship, naturalization procedures, civic participation,
                     and U.S. history and government so that they can acquire the skills and knowledge to become active and
                     informed parents, workers, and community members.
                 </p>
             </div>
-            <div class="section-image">
-                <img src="http://ozarkliteracy.org/wp-content/uploads/2013/09/OLC-Logo_Civic.png">
+            <div class="section-image enter-left">
+                <img src="images/civic.png">
             </div>
         </div>
         <div class="financial-literacy lit-row">
-            <div class="section-para">
+            <div class="section-para enter-left">
                 <p>Students learn about money and money making decisions such as opening a bank account, investing their money,
                     writing checks and how to protect themselves from fraud. </p>
             </div>
-            <div class="section-image">
-                <img src="http://ozarkliteracy.org/wp-content/uploads/2013/09/OLC-Logo_Finance.png">
+            <div class="section-image enter-right">
+                <img src="images/finance.png">
             </div>
         </div>
-        <div class="health-literacy lit-row">
-            <div class="section-para">
+        <div id="testing" class="health-literacy lit-row">
+            <div id="testing2" class="section-para enter-right">
                 <p>We help students understand and have access to basic health information and services needed to make appropriate
                     health decisions. Curriculum includes going to the doctor or hospital, reading and understanding medicine
                     labels, reading and interpreting nutritional information, and navigating health insurance. </p>
             </div>
-            <div class="section-image">
-                <img src="http://ozarkliteracy.org/wp-content/uploads/2013/09/OLC-Logo_Health.png">
+            <div class="section-image enter-left">
+                <img src="images/health.png">
             </div>
         </div>
         <div class="workforce-literacy lit-row">
-            <div class="section-para">
+            <div class="section-para enter-left">
                 <p>Students receive instruction on obtaining and maintaining employment which includes resume and cover letter
                     writing, how to complete job applications, an introduction to various vocations, and help understanding
                     employment expectations, rules, regulations, and safety. </p>
             </div>
-            <div class="section-image">
-                <img src="http://ozarkliteracy.org/wp-content/uploads/2013/09/OLC-Logo_Workforce.png">
+            <div class="section-image enter-right">
+                <img src="images/work.png">
             </div>
         </div>
     </section>
@@ -128,15 +143,23 @@
             </ul>
         </nav>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+-->
 </body>
 
 </html>
