@@ -10,12 +10,15 @@ $(document).ready(function () {
         classToAdd: 'visible animated fadeInRight',
         offset: 100
     });
+    
     $('.slick-carousel').slick({
         infinite: true,
-        speed: 500,
-        fade: true,
+        speed: 1000,
         autoplay: true,
+        fade: true,
         cssEase: 'linear',
         adaptiveHeight: true,
     });
+
+
 });

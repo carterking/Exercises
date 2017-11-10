@@ -35,7 +35,7 @@ function getTotalCost(cart) {
     /*Calculate the total cost of the cart.*/
     /* Your Code Here */
     for (var i = 0; i < productList.length; i++) {
-        totalCost += productList[i]["price"];
+        totalCost += productList[i].price;
     }
 
 

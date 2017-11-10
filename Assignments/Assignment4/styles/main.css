@@ -17,7 +17,13 @@ a {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-p {
+.footer-column p {
+    color: #777;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h3 {
+    color: #50575E;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -72,11 +78,9 @@ header {
     width: 100%;
 }
 
-
 section img {
-    max-width: 353px;
-    max-height: 78px;
-    width: 100%;
+    max-width: 400px;
+    max-height: 75px;
 }
 
 .hidden {
@@ -164,6 +168,23 @@ footer nav ul {
     flex-basis: 50%;
 }
 
+.mission-vision-support {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission,
+.vision,
+.support {
+    margin: 10px 80px;
+    width: 80%;
+}
 
 @media screen and (max-width: 650px) {
     header nav ul,
@@ -174,8 +195,21 @@ footer nav ul {
     .main-nav {
         align-items: left;
     }
-    .civic-literacy, .health-literacy {
+    .civic-literacy,
+    .health-literacy {
         flex-direction: column-reverse;
     }
-    
+    section img {
+        max-width: 300px;
+        max-height: 68px;
+    }
+    .mission-vision-support {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-column h3,
+    p {
+        text-align: center;
+    }
 }
