@@ -6,9 +6,63 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<body>
-    <h1>Hello World!</h1>
-    <h2>Howdy</h2>
+<body class="responsive">
+    <div class="container">
+        <div class="navigation">
+            <nav>
+                <ul class="main-nav">
+                    <li class="nav-links">
+                        <a href="index.html">Public Profile</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="history.html">Account Settings</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="contact.html">Blog Settings</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="history.html">Social Networks</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="contact.html">Payments Settings</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="form-container">
+            <h2 class="form-header">Public Profile Settings</h2>
+            <form>
+                <ul class="flex-outer">
+
+                    <li>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name">
+                    </li>
+                    <li>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name">
+                    </li>
+                    <li>
+                        <label for="gender">Gender</label>
+                        <select id="gender">
+                            <option value="male">Female</option>
+                            <option value="male">Male</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="message">Bio</label>
+                        <textarea rows="6" id="message"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
     <script src="scripts/main.js"></script>
 </body>
