@@ -17,7 +17,6 @@ $(document).ready(function () {
         autoplay: true,
         fade: true,
         cssEase: 'linear',
-        adaptiveHeight: true,
     });
 
 
