@@ -1,0 +1,104 @@
+$port-border: #494C4E;
+
+html {
+    font-size: 62.5%;
+    font-family: "adriane", Georgia, serif;
+    color: #494C4E;
+}
+body {
+    border: 8px solid $port-border;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+    margin: 1em;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 1.5em;
+}
+
+h3, h4 {
+    font-family: "franklin-gothic-urw-cond", Arial, sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.35em;
+    line-height: 1em;
+    margin-bottom: 1.25em;
+    color: #F5C453;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-bottom: 1.5em;
+}
+
+a {
+    color: #494C4E;
+    text-decoration: none;
+}
+
+nav {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    li {
+        list-style-type: none;
+    }
+}
+
+.nav-link a {
+    font-size: 1.5em;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .logo {
+        flex-grow: .5;
+    }
+}
+
+.outer-container {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.hero-container {
+    display: flex;
+    max-width: 1280px;
+    padding: 1.5em;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.cta-section {
+    text-align: center;
+    padding: 3em 0;
+    border-top: 1px solid #F0EEEE
+}
+
+.cta-button {
+    border-radius: 5px;
+    border: 1px solid #F5C453;
+    padding: 1em 1.5em;
+    display: inline-block;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    min-width: 10em;
+    transition: all .25s ease;
+}
